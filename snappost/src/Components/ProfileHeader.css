@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .header-container {
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    
+  }
+  .cover-pic {
+     width: 500px;
+     margin: auto;
+     height: auto;
+     max-height:400px;
+     display: block;
+     border-radius:6px;
+  }
+  .Profile-pic{
+        position: relative;
+       bottom:47px; 
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90px; 
+        height: 90px;
+        border-radius: 50%;
+        border: 2px solid #fff; 
+    
+}
+.user-name{
+  margin-top: -35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+a {
+  text-align: center;
+  font-size: 20px;
+  display: inline-block; 
+  width: 100%; 
+}
+.btn btn-primary{
+  width: 50px;
+  
+}
